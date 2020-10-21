@@ -1,0 +1,33 @@
+{
+    "name": "Guns, Gore and Cannoli",
+    "id": "CUSA03051",
+    "version": "01.00",
+    "process": "eboot.bin",
+    "mods": [
+        {
+            "name": "Infinite Ammo/Items",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "9DC3F2",
+                    "on": "9090",
+                    "off": "FFC8"
+                }
+            ]
+        },
+        {
+            "name": "No reload",
+            "type": "checkbox",
+            "memory": [
+                {
+                    "offset": "9DCB77",
+                    "on": "41894F20",
+                    "off": "41894720"
+                }
+            ]
+        }
+    ],
+    "credits": [
+        "Saso"
+    ]
+}
